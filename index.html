@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrodic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script defer src="scripts/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <img src="assets/phrodic.png" alt="logo" class="logo" width="40">
+        <div class="ham" onclick="hamburger()"><span></span><span></span><span></span></div>
+        <ul class="menu">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#releases">Releases</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a onclick="uD()" class="button-cta">Login</a></li>
+            <li><a onclick="uD()" class="button-cta">Sign Up</a></li>
+        </ul>
+    </header>
+    <section class="page-one">
+        <div class="text">
+            <b></b> <br>
+            <span></span>
+            <p></p>
+        </div>
+        <div class="icons">
+            <i class="fa fa-share"></i>
+            <i class="fa fa-music"></i>
+            <i class="fa fa-headphones"></i>
+            <i class="fa fa-bullhorn"></i>
+            <i class="fa fas fa-receipt"></i>
+        </div>
+        <a href="https://phrodic.com" class="button-cta"></a>
+    </section>
+    <section class="page-two" id="services">
+        <div class="two-container">
+            <div class="text-c2">
+                <b></b> <br>
+                <span></span>
+                <p></p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <i class="fa fa-share"></i>
+                </div>
+                <div class="card">
+                    <i class="fa fa-music"></i>
+                </div>
+                <div class="card">
+                    <i class="fa fa-headphones"></i>
+                </div>
+                <div class="card">
+                    <i class="fa fa-bullhorn"></i>
+                </div>
+                <div class="card">
+                    <i class="fa fa-receipt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="fill1"></div>
+        <div class="fill2"></div>
+        <div class="fill3"></div>
+        <div class="fill4"></div>
+        <div class="fill5"></div>
+    </section>
+    <section class="page-three">
+        <div class="three-container">
+            <div class="artists-container">
+                <div class="artists1"></div>
+                <div class="artists2"></div>
+                <div class="artists3"></div>
+            </div>
+            <div class="text-c3">
+                <b>We Have</b><br>
+                <span></span><br>
+                <bi></bi><br>
+            </div>
+        </div>
+        <div class="afill0" style="height: 500vh; width: 100%;"></div>
+        <div class="afill1"></div>
+        <div class="afill2"></div>
+    </section>
+    <section class="page-four">
+        <div class="four-container">
+            <div class="text-c4">
+                Our Top<br>
+                <span>Artists.</span>
+            </div>
+            <div class="top-ctr">
+                <div class="top-artists">
+                    <div class="ar-ctr">
+                        <div class="ar">
+                            <img src="assets/artist4.png" alt="XENO XID" width="50">
+                            <h1>XENO XID</h1>
+                            <p>104K Monthly Listeners</p>
+                            <a href="https://open.spotify.com/artist/4VVjUvknyACWCm76lLFpQy" target="_blank"><i class="fab fa-spotify"></i> See on Spotify</a>
+                        </div>
+                        <div class="ar">
+                            <img src="assets/artist7.png" alt="ghozx" width="50">
+                            <h1>ghozx</h1>
+                            <p>102K Monthly Listeners</p>
+                            <a href="https://open.spotify.com/artist/7o8UxChwcY785yC4thg42G" target="_blank"><i class="fab fa-spotify"></i> See on Spotify</a>
+                        </div>
+                        <div class="ar">
+                            <img src="assets/artist3.png" alt="ZEXXO" width="50">
+                            <h1>ZEXXO</h1>
+                            <p>26K Monthly Listeners</p>
+                            <a href="https://open.spotify.com/artist/5XoWCY6KvoXCjLa4VEt2ey" target="_blank"><i class="fab fa-spotify"></i> See on Spotify</a>
+                        </div>
+                        <div class="ar">
+                            <img src="assets/artist1.png" alt="CHSTRX" width="50">
+                            <h1>CHSTRX</h1>
+                            <p>25K Monthly Listeners</p>
+                            <a href="https://open.spotify.com/artist/2uTZsCG0FZ2p9MoTyKcNLX" target="_blank"><i class="fab fa-spotify"></i> See on Spotify</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-releases">
+                    <div class="ar-ctr">
+                        <div class="ar">
+                            <img src="assets/JEPHONKV1.jpg" alt="JEPHONK V1">
+                            <h1>JEPHONK V1</h1>
+                            <p>ZEXXO</p>
+                            <a href="https://open.spotify.com/album/6d9e3ijqA0Iu8eBAjFWpWD" target="_blank"><i class="fab fa-spotify"></i> See on Spotify</a>
+                        </div>
+                        <div class="ar">
+                            <img src="assets/JEPHONKV2.jpg" alt="JEPHONK V2">
+                            <h1>JEPHONK V2</h1>
+                            <p>ZEXXO</p>
+                            <a href="https://open.spotify.com/track/5lzDqLsUgg0ZDtTDXI0VRG" target="_blank"><i class="fab fa-spotify"></i> See on Spotify</a>
+                        </div>
+                        <div class="ar">
+                            <img src="assets/FUNKDOWINDAH.jpg" alt="FUNK DO WINDAH">
+                            <h1>FUNK DO WINDAH</h1>
+                            <p>GAVORN</p>
+                            <a href="https://open.spotify.com/track/3Bs1CkEJC2TunSlTIxqReY" target="_blank"><i class="fab fa-spotify"></i> See on Spotify</a>
+                        </div>
+                        <div class="ar">
+                            <img src="assets/TAHUISIFUNK.jpg" alt="TAHU ISI FUNK">
+                            <h1>TAHU ISI FUNK</h1>
+                            <p>ghozx, CHSTRX</p>
+                            <a href="https://open.spotify.com/track/1kuFcrlDzDAw4ld2xvCfSZ" target="_blank"><i class="fab fa-spotify"></i> See on Spotify</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://open.spotify.com/playlist/3qQxBmfHQ3xkZyUvEkZOFR" target="_blank" class="spotify"><i class="fab fa-spotify"></i> See all our releases</a>
+        </div>
+        <div class="bfill1" id="artist"></div>
+        <div class="bfill2" id="releases"></div>
+    </section>
+    <section class="page-five" id="contact">
+        <div class="five-container">
+            <div class="five-img-wrap">
+                <img src="assets/artist1.png" class="five-img" width="100">
+            </div>
+            <div class="five-text">
+                <h1>Get in Touch with Us</h1>
+                <p>We're always excited to connect with artists, producers, and music enthusiasts! Whether you're looking to collaborate, need support, or have questions about our services, we’re here to help. Feel free to reach out via our contact details to get in touch with our team. Let’s make some great music together!</p> <br>
+                <a href="mailto:phrodicmusic@gmail.com">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-body">
+            <div class="links">
+                <h2><img src="assets/phrodic.png" width="40"> Phrodic</h2>
+                <a href="#services"><i class="fa fa-list"></i> Services</a>
+                <a href="#artists"><i class="fa fa-music"></i> Artists</a>
+                <a href="#releases"><i class="fa fa-compact-disc"></i> Releases</a>
+                <a href="#contact"><i class="fa fa-paper-plane"></i> Contact</a>
+            </div>
+            <div class="links">
+                <h2><i class="fa fa-share-nodes"></i>  Social Medias</h2>
+                <a href="https://instagram.com/phrodic"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://youtube.com/@phrodic"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="https://tiktok.com/@phrodic"><i class="fab fa-tiktok"></i> TikTok</a>
+                <a href="https://tiktok.com/@phrodic"><i class="fab fa-tiktok"></i> TikTok</a>
+                <a href="https://open.spotify.com/user/31ccqvmv4oo52hlaihnel7l6rlr4"><i class="fab fa-spotify"></i> Spotify</a>
+            </div>
+            <div class="links">
+                <h2><i class="fa fa-paper-plane"></i>  Contact</h2>
+                <a href="mailto:phrodicmusic@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+            </div>
+        </div>
+        <div class="bottom-c">
+            <h1>&copy;2025 Phrodic Digital Music</h1>
+            <a href="https://bio.site/chstrx" target="_blank">a chstrx's design</a>
+        </div>
+    </footer>
+</body>
+</html>
